@@ -1,4 +1,5 @@
 import React from 'react';
+import TaskList from './components/TaskList';
 
 function App() {
   return (
@@ -6,9 +7,7 @@ function App() {
       <h1 className="text-3xl font-bold text-center text-blue-600">
         Welcome to First Project!
       </h1>
-      <p className="text-center mt-4 text-gray-700">
-        Your ultimate student life manager.
-      </p>
+      <TaskList />
     </div>
   );
 }
